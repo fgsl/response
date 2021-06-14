@@ -1,0 +1,27 @@
+{
+	"name" : "fgsl/response",
+	"description" : "Fgsl Response",
+	"type" : "framework",
+	"keywords" : [
+		"framework",
+		"laminas",
+		"mezzio",
+		"microservice"
+	],
+	"homepage" : "https://github.com/fgsl/response",
+	"license" : "AGPL-3.0-only",
+	"autoload" : {
+		"psr-4" : {
+			"Fgsl\\Response\\" : "src/Fgsl/Response",
+			"Fgsl\\Test\\Response\\" : "tests/Fgsl/Response"
+		}
+	},
+	"require" : {
+		"php" : ">=7.0",
+		"phpunit/phpunit" : "^8.3",
+		"laminas/laminas-diactoros" : "^1.7.1 || ^2.0"
+	},
+	"config" : {
+		"secure-http" : false
+	}
+}
